@@ -1,0 +1,38 @@
+<!-- Logo / Menu ================================================== -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="span4">
+                <a href="{{ route('paginas.home') }}" class="logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="span8">
+                <nav>
+                    <ul class="right">
+                        <li class="current">
+                            <a href="{{ route('paginas.home') }}">
+                                home                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('paginas.about') }}">
+                                about                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('paginas.portfolio') }}">
+                                portfolio                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('paginas.contact') }}">
+                                contact                            
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

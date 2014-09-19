@@ -1,0 +1,16 @@
+{
+  "name": "ep",
+  "version": "0.0.1",
+  "authors": [
+    "leolower <leolower@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
